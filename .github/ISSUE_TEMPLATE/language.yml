@@ -1,5 +1,7 @@
-name: "study"
-description: "면접에서 나올 수 있는 키워드와 대표 질문을 선정한다"
+name: "자바 및 JVM"
+description: "면접에서 나올 수 있는 자바 및 JVM 관련 대표 질문을 선정한다"
+title: "[자바 및 JVM]: "
+labels: "자바 및 JVM"
 body:
   - type: textarea
     attributes:
