@@ -39,7 +39,7 @@
     </tr>
     <tr>
         <td>스터디</td>
-        <td>토 (10:00~)</td>
+        <td>토 (10:30~)</td>
         <td>
             <a href="https://app.gather.town/app/rlgHKPj38GyqLB9z/SLiPP">SLiPP 게더타운</a>에서 온라인 면접 형식의 스터디를 진행한다.
         </td>
