@@ -1,0 +1,11 @@
+name: "study"
+description: "면접에서 나올 수 있는 키워드와 대표 질문을 선정한다"
+body:
+  - type: textarea
+    attributes:
+      label: 📝 키워드 선정
+      description: 키워드 선정 이유에 대해 알려주세요!
+      placeholder: 참고 자료 혹은 관련 URL이 있다면 추가해주세요!
+    validations:
+      required: true
+ 
