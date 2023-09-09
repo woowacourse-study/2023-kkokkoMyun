@@ -9,36 +9,54 @@
 <br><br>
 
 ## 운영 방식
-
 <table>
     <tr>
-        <th>기간</th>
+        <th>활동</th>
+        <th>기한</th>
         <th>내용</th>
     </tr>
     <tr>
-        <td>월요일</td>
+        <td>ISSUE 발행</td>
+        <td>~ 월요일 18:00</td>
         <td>
-            본인이 스스로 cs면접에서 나올 수 있는 키워드 하나를 정하고 <br>
-            그에 따른 대표 질문을 선정하여 깃허브 이슈를 작성한다.
-         </td>
+            <a href="#참고-자료">참고 자료</a>에서 면접에서 나올 수 있는 키워드와 대표 질문을 선정한 후 <br>
+            <a href="#이슈-작성">이슈 작성</a> 규칙에 맞춰 GitHub 이슈를 작성한다.
+        </td>
     </tr>
     <tr>
-        <td>월 ~ 금</td>
-        <td>아래 파일 작성 규칙에 맞춰 해당 질문에서 나올 수 있는 꼬리 질문과 그에 대한 답변을 정리한다.</td>
-    </tr>
-    <tr>
-        <td>금요일</td>
-        <td>오후 6시까지 아래 명시된 PR규칙에 맞춰 PR을 날린다.</td>
-    </tr>
-    <tr>
-        <td>토요일</td>
-        <td>오전 10시 30분 잠실캠퍼스에서 만나서 면접 형식으로 스터디를 진행한다.</td>
-    </tr>
-    <tr>
-        <td>일요일</td>
+        <td>개인 학습</td>
+        <td> - </td>
         <td>
-            오후 6시까지 Request Change에 대해 학습하고 다시 리뷰를 요청한다. <br>
-            정리가 완료되면 스터디장이 main 브랜치에 merge한다.
+            <a href="#파일-작성">파일 작성</a> 규칙에 맞춰 해당 질문에서 나올 수 있는 꼬리 질문과 그에 대한 답변을 정리한다.
+        </td>
+    </tr>
+    <tr>
+        <td>PR 요청</td>
+        <td>~ 금요일 18:00</td>
+        <td>
+            <a href="#PR-작성">PR 작성</a> 규칙에 맞춰 대표 질문과 꼬리 질문을 정리한 PR을 요청한다.
+        </td>
+    </tr>
+    <tr>
+        <td>스터디</td>
+        <td>토요일 10:00 ~ 12:00</td>
+        <td>
+            <a href="https://app.gather.town/app/rlgHKPj38GyqLB9z/SLiPP">SLiPP 게더타운</a>에서 온라인 면접 형식의 스터디를 진행한다.
+        </td>
+    </tr>
+    <tr>
+        <td>학습 피드백</td>
+        <td>~ 토요일 18:00</td>
+        <td>
+            누구든지 스터디한 내용에 대해 개념적으로 잘못된 부분이 있거나, <br>
+            추가적인 꼬리 질문이 생각난다면 PR에 Request Change를 남긴다.
+        </td>
+    </tr>
+    <tr>
+        <td>피드백 반영</td>
+        <td>~ 일요일 18:00</td>
+        <td>
+            Request Change에 대해 학습하고 다시 리뷰를 요청한다.
         </td>
     </tr>
 </table>
@@ -48,14 +66,14 @@
 ## 멤버
 <table>
     <tr>
-        <td><img src="https://avatars.githubusercontent.com/u/77482065?v=4" alt="디노"></td>
+        <!-- <td><img src="https://avatars.githubusercontent.com/u/77482065?v=4" alt="디노"></td> -->
         <td><img src="https://avatars.githubusercontent.com/u/89302528?v=4" alt="리오"></td>
         <td><img src="https://avatars.githubusercontent.com/u/95093193?v=4" alt="여우"></td>
         <td><img src="https://avatars.githubusercontent.com/u/112045553?v=4" alt="준팍"></td>
         <td><img src="https://avatars.githubusercontent.com/u/32128848?v=4" alt="홍실"></td>
     </tr>
     <tr>
-        <th><a href="https://github.com/jjongwa">디노</a></th>
+        <!-- <th><a href="https://github.com/jjongwa">디노</a></th> -->
         <th><a href="https://github.com/Jaeyoung22">리오</a></th>
         <th><a href="https://github.com/BackFoxx">여우</a></th>
         <th><a href="https://github.com/junpakPark">준팍</a></th>
@@ -67,17 +85,25 @@
 
 ## 컨벤션
 ### 파일 작성
-- `항목/질문/작성자.md`의 양식을 따릅니다.
-- ex) `네트워크/OSI_7_LAYER/준팍.md`
+- `분야/항목/질문_작성자.md`의 양식을 따릅니다.
+- ex) `네트워크/OSI 7 LAYER/OSI7계층과_그_존재_이유에_대해_설명해보세요_준팍.md`
 ### PR 작성
+- PR Template의 양식을 따릅니다.
 ### 이슈 작성
+- Issue Template의 양식을 따릅니다.
 
 <br><br>
 
 ## 스터디 규칙
-- 정리한 내용을 보지 않고, 조리있게 말할 수 있는 지 확인한다
-- 다른 스터디원들은 금요일에 업로드된 질문과 그에 대한 꼬리질문을 중심으로 질문한다.
-- 개념적으로 잘못된 부분이 있거나, 추가적인 꼬리 질문이 생각난다면 PR에 Request Change를 남긴다.
-- 면접 질문은 CS라면 어떤 분야라도 상관 없다.
-- 인성 질문이나 프로젝트 질문은  레벨 5부터 가능하다
-- 인당 질문 시간은 20분 이내로 제한한다
+- 인당 질문 시간은 15분 이내로 제한한다.
+- 학습한 내용을 보지 않고 조리 있게 말할 수 있는지 확인한다.
+- 레벨 4에서는 CS 관련만 질문하되, CS라면 어떤 분야라도 상관없다.
+    - PR에 작성된 질문과 그에 대한 꼬리 질문을 중심으로 질문한다.
+- 레벨 5부터 소프트 스킬 혹은 프로젝트 관련 질문도 가능하다.
+
+<br><br>
+
+## 참고 자료
+- [Backend-Interview-Question](https://github.com/ksundong/backend-interview-question#cs-%EA%B4%80%EB%A0%A8-%EC%A7%80%EC%8B%9D)
+- [Sir.LOIN 소프트웨어 엔지니어 인터뷰 질문 목록](https://github.com/sirloin-dev/meatplatform/blob/master/job-description/interview-questions.adoc)
+- [Brave Tech Interview](https://github.com/brave-people/brave-tech-interview#part1-%EC%9A%A9%EA%B0%90%ED%95%9C-%EC%A7%88%EB%AC%B8)
